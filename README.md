@@ -9,3 +9,4 @@ As an output modelled segments are given, which one can use to fill gaps, or ext
 Please check the notebook 'notebooks/01_Time_Series_Challenge.ipynb' containing documentation in markdown.
 The Sphinx Docs give some additional information. However, since we rely on public libraries mostly, the overall software development setup was not used quite the way it could have in a more advanced project.
 
+![Time Series Segments](https://github.com/leier/tsc/docs/build/html/_images/heating_clusters.png?raw=true)
