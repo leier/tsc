@@ -1,5 +1,5 @@
 
-## Welcome to the Time Series Challenge documentation!
+## Welcome to the Time Series Challenge Documentation!
 
 ---
 
