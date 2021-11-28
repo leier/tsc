@@ -1,0 +1,31 @@
+Results of doctest builder run on 2021-11-28 12:45:15
+=====================================================
+
+Document: usage
+---------------
+**********************************************************************
+File "usage.rst", line 13, in default
+Failed example:
+    utils.fancy_dendrogram()
+Exception raised:
+    Traceback (most recent call last):
+      File "/Users/leier/progs/anaconda3/envs/py/lib/python3.8/doctest.py", line 1336, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest default[1]>", line 1, in <module>
+        utils.fancy_dendrogram()
+      File "/Users/leier/progs/coding/DataScienceCodingChallenge/codetemplate/src/utils.py", line 20, in fancy_dendrogram
+        ddata = dendrogram(*args, **kwargs)
+    TypeError: dendrogram() missing 1 required positional argument: 'Z'
+**********************************************************************
+1 items had failures:
+   1 of   2 in default
+2 tests in 1 items.
+1 passed and 1 failed.
+***Test Failed*** 1 failures.
+
+Doctest summary
+===============
+    2 tests
+    1 failure in tests
+    0 failures in setup code
+    0 failures in cleanup code
