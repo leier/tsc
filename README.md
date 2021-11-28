@@ -7,7 +7,7 @@ This is a time series analysis project, which helps analyzing gaps, finding segm
 As an output modelled segments are given, which one can use to fill gaps, or extrapolate the time series within reason.
 
 Please check the notebook 'notebooks/01_Time_Series_Challenge.ipynb' containing documentation in markdown.
-The Sphinx Docs give some additional information. However, since we rely on public libraries mostly, the overall software development setup was not used quite the way it could have in a more advanced project. Docstring is however used in the very few function added to utils.
+The Sphinx Docs give some additional information. However, since we rely on public libraries mostly, the overall software development setup was not used quite the way it could have in a more advanced project. Docstring is however used in the very few functions added to utils.
 
 I am not familiar with Sphinx and spent considerable time to get it running, but among other problems autodoc and doctest do not seem to run nicely together. If I may give an unsolicited advice: the following tools are good alternatives to Sphinx: Swagger UI, PDoc3 or MkDocs. I proceed by using markdown in the notebook 01_Time_Series_Challenge.ipynb in the notebook folder.
 
